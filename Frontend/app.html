@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hodlinfo</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8ff5f3e8e1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="logo">
+        <a href="app.html">
+          <img src="assets/image/HODLINFO.8f78fc06.png" alt="Hodlinfo" class="logo_img">
+        </a>
+        <h4><span style="color:#808080">Powered By</span><span style="color:#6CCACB"> Finstreet</span></h4>
+      </div>
+      <div class="dropdowns">
+        <span class="drop">
+          <select id="dropdown1">
+            <option>INR</option>
+          </select>
+        </span>
+        <span class="drop">
+          <select id="dropdown2">
+            <option>BTC</option>
+            <option style="color:black">XRP</option>
+            <option style="color:black">ETH</option>
+            <option style="color:black">TRX</option>
+          </select>
+        </span>
+      </div>
+      <div class="menu-right">
+        <ul id="menu">
+          <li> <span class="right-num" id="clock">60</span></li>
+          <li><button class="telegram"><a type="button" href="https://telegram.org/" class="telegram-id"><i
+            class="fab fa-telegram-plane"></i>Connect telegram</a></button> </li>
+          <li><label class="switch">
+              <input type="checkbox" id="toggle-theme">
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--Table for displaying values -->
+  <div class="box">
+    <table cellspacing="0">
+      <thead>
+        <th>#</th>
+        <th>Name</th>
+        <th>Last</th>
+        <th>Buy/Sell price</th>
+        <th>Volume</th>
+        <th>Base_Unit</th>
+      </thead>
+      <tbody id="table-data">
+      </tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+</body>
