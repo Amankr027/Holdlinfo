@@ -35,6 +35,9 @@ To run the Node server:
 After successfully running the server, just open `Frontend/app.html` file on your browser.
 
 Result should look like this:
-![Desktop View:](https://drive.google.com/file/d/1qEezqdyXqf3FvJ39ZoViSeg_LV70p-y9/view?usp=sharing)
 
-![Mobile View:](https://drive.google.com/file/d/1T1Sa9pBFfyWb8iRIX0E1zuo3KY7X2uiU/view?usp=sharing)
+Desktop View:
+![Desktop View:](https://user-images.githubusercontent.com/75837441/229424733-bc397df8-a431-49df-a098-0ffa7146a792.png)
+
+Mobile View:
+![Mobile View:](https://user-images.githubusercontent.com/75837441/229424954-85e7aa9f-3edb-4c35-86b4-789179e8f584.png)
