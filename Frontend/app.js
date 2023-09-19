@@ -4,7 +4,7 @@ const fetchData = () => {
     tableBody.removeChild(tableBody.firstChild);
   }
 
-  fetch(`http://localhost:2020/`)
+  fetch(`http://localhost:5050/`)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
